@@ -1,0 +1,23 @@
+#content{
+  width: 70%;
+  text-align: center;
+}
+.card {
+  margin-bottom: 30px;
+}
+.intro{
+    position: absolute;
+    top:50px;
+    left: 120px;
+    height: 80%;
+    width: 80%;
+    z-index: -1;
+}
+.intro p{
+font-size: 0.8em;
+font-weight: bold;
+}
+.card img:hover{
+  opacity: 0.2;
+  z-index: -1;
+}

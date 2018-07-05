@@ -1,0 +1,72 @@
+#content{
+  padding-top: 100px;
+  width: 70%;
+  margin: 0 auto;
+}
+.left{
+  float: left;
+  width: 60%;
+}
+#right{
+  margin-left: 2%;
+  width: 35%;
+  float: right;
+
+}
+.card{
+  margin-bottom: 20px;
+  padding: 5px;
+  -webkit-box-shadow:1px 1px 1px 1px #d9d6c3;
+  box-shadow:1px 1px 1px 1px #d9d6c3;
+}
+.page-header{
+  font-size: 2em;
+}
+footer{
+  position: relative;
+  top:10px;
+}
+.badge{
+  background-color: #007bff;
+}
+.left .badge-pill{
+  background-color: #17a2b8;
+}
+.gonggao .card-subtitle{
+  float: right;
+}
+.gonggao .card-body{
+  overflow: hidden;
+  padding: 2%;
+}
+.left .list-group-item p{
+  font-size: 1.2em;
+}
+#gg{
+  margin-left: 10%;
+  width: 80%;
+}
+#gg .card-body{
+  text-align: center;
+  overflow: hidden;
+  padding: 2%;
+}
+#gg h6{
+  font-size: 1em;
+}
+#gg p{
+  text-align: center;
+  font-size: 3em;
+  text-indent: 0;
+}
+#gg h5{
+  text-align: left;
+  text-indent: 2em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+#gg .badge{
+  margin: 20px;
+  background-color: red;
+  float: right;
+}

@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/modal.css">
+<link rel="stylesheet" type="text/css" href="../css/login.css">
+<title>注册</title>
+<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+<style media="screen">
+  body{
+    background-color: #cde6;
+  }
+</style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" ></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">首页</a></li>
+          <li><a href="find.html">分类查找</a></li>
+          <li><a href="seek.html">发布悬赏</a></li>
+          <li><a href="recycle.html">书籍回收</a></li>
+          <li><a href="bbs.html">论坛</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="log">登录</a></li>
+          <li><a href="sign.html">注册</a></li>
+        </ul>
+      </div>
+  </nav>
+
+<div id="content">
+    <div id="sign-html">
+    <div class="login-form">
+        <p id="sign-in">注册</p>
+        <form method="post">
+          	<div class="group">
+      			<label for="user" class="label">用户名</label>
+      			<input id="user" type="text" class="input">
+      		</div>
+      		<div class="group">
+      			<label for="pass" class="label">请输入密码</label>
+      			<input id="pass" type="password" class="input" data-type="password">
+      		</div>
+      		<div class="group">
+      			<label for="pass" class="label">请再次输入密码</label>
+      			<input id="pass" type="password" class="input" data-type="password">
+      		</div>
+      		<div class="group">
+      			<label for="pass" class="label">绑定邮箱</label>
+      			<input id="pass" type="text" class="input">
+      		</div>
+          <div class="group">
+      			<a onclick="alert('请等待管理员审核，审核成功后即可正常登陆')" href="../index.html"><input type="button" class="button" value="注册"></a>
+        	</div>
+      </form>
+    </div>
+   </div>
+
+
+
+</div>
+
+
+   	<div id="modal">
+		<div id="modal-content">
+      <form method="post">
+        <div id="form-container">
+          <h1>登录</h1>
+          <label class="form-label" for="username">用户名</label>
+          <label id="warning-user">用户名无效！</label>
+          <input type="text" name="username" id="username">
+
+          <label class="form-label" for="password">密码</label>
+          <label id="warning-pass">密码错误！</label>
+          <input type="password"name="password" id="password">
+
+          <label class="form-label" id="remember-me">记住密码:</label>
+          <label class="rm-label" for="rm-yes"><input type="checkbox" name="remember-me" id="rm-yes"></label>
+          <br/>
+          <button type="button" id="button-login">登录</button>
+          <button type="button" id="button-close">关闭</button>
+        </div>
+      </form>
+		</div>
+	</div>
+
+	<script src="../js/login.js"></script>
+
+</body>
+</html>

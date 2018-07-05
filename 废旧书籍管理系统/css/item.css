@@ -1,0 +1,59 @@
+#content{
+  width: 60%;
+}
+#specify{
+  display: block;
+}
+.left{
+	float: left;
+	width: 30%;
+	text-align: center;
+	border: solid 2px #f2eff2;
+}
+.left img{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.right{
+  width: 60%;
+	float: right;
+}
+.title{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+}
+.price table{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing:  0px 5px;
+}
+.price th{
+	text-align: left;
+	font-weight: normal;
+}
+.price{
+	background-color: #f2eff2;
+	padding: 2em;
+}
+b{
+	color: #ff2212;
+	font-size: 2em;
+}
+.buy input{
+  margin-top: 30px;
+  margin-right: 8%;
+  width: 40%;
+	height: 3em;
+	background-color: #f52323;
+	border: 0;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+#add{
+  background-color: orange;
+}
+footer{
+  padding-top: 100px;
+}

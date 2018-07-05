@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>二战全史</title>
+<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="../css/modal.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/item.css">
+  </head>
+  <body>
+
+     <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" ></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">首页</a></li>
+            <li class="active"><a href="find.html">分类查找</a></li>
+            <li><a href="seek.html">发布悬赏</a></li>
+            <li><a href="recycle.html">书籍回收</a></li>
+            <li><a href="bbs.html">论坛</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="log">登录</a></li>
+            <li><a href="sign.html">注册</a></li>
+          </ul>
+        </div>
+    </nav>
+
+<div id="content">
+
+  <div class="page-header">
+      <div class="title">
+       二战全史
+      </div>
+  </div>
+  <div class="specify">
+    <div class="left">
+      <img src="../img/book9.png">
+    </div>
+    <div class="right">
+      <div class="price">
+        <table>
+          <tr>
+            <th>书名</th><th>二战全史</th>
+          </tr>
+          <tr>
+            <th>作者</th><th>白虹</th>
+          </tr>
+          <tr>
+            <th>出版发行</th><th>中国华侨出版社</th>
+          </tr>
+          <tr>
+            <th>出版时间</th><th>2016年9月</th>
+          </tr>
+          <tr>
+            <th>国际标准号(ISBN)</th><th>978-7-5113-5438-9</th>
+          </tr>
+          <tr>
+            <th>所属分类</th><th>军事</th>
+          </tr>
+          <tr>
+            <th>定价</th><th><b>11.80</b></th>
+          </tr>
+        </table>
+      </div>
+      <div class="buy">
+        <input type="button" id="buy" value="购买" onclick="alert('请登录！')">
+        <input type="button" id="add" value="加入购物车" onclick="alert('请登录！')">
+      </div>
+
+    </div>
+  </div>
+
+<button id="button-top" title="Back to top">↑</button>
+
+<!-- FOOTER -->
+      <footer>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系我们</a>
+        <p>@2018北京理工大学<br/>北京市海淀区中关村南大街5号</p>
+      </footer>
+
+</div>
+</div>
+    <div id="modal">
+      <div id="modal-content">
+        <form method="post">
+          <div id="form-container">
+            <h1>登录</h1>
+            <label class="form-label" for="username">用户名</label>
+            <label id="warning-user">用户名无效！</label>
+            <input type="text" name="username" id="username">
+
+            <label class="form-label" for="password">密码</label>
+            <label id="warning-pass">密码错误！</label>
+            <input type="password"name="password" id="password">
+
+            <label class="form-label" id="remember-me">记住密码:</label>
+            <label class="rm-label" for="rm-yes"><input type="checkbox" name="remember-me" id="rm-yes"></label>
+            <br/>
+            <button type="button" id="button-login">登录</button>
+            <button type="button" id="button-close">关闭</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    	<script src="../js/login.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/vendor/holder.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#content{
+  padding-top: 100px;
+  width: 55%;
+  margin: 0 auto;
+}
+.page-header{
+  font-size: 2em;
+}
+footer{
+  position: relative;
+  top:10px;
+}
+.badge-pill{
+  background-color: #17a2b8;
+}

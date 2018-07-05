@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lora Regular'), local('Lora-Regular') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+  height: 100%;
+}
+body {
+	display:inline;
+	height: 100%;
+}
+
+a{
+  text-decoration:none;
+  color:#000000;
+}
+
+
+#log {
+	cursor: pointer;
+}
+
+
+#index_right {
+	float: right;
+}
+
+.navbar{
+	height: 50px;
+	font-size: 18px;
+	height: 50px;
+}
+.navbar img{
+	height: 50px;
+	margin-top: -15px;
+}
+#left_menu_development {
+	position: fixed;
+	top: 60px;
+	background-color: rgba(255, 0, 255, 0.70);
+	z-index: 1;
+	width: 200px;
+	height: 300px;
+}
+
+#left_menu_development ul li {
+	text-align: center;
+}
+
+#left_menu_development ul li a {
+	font-family: Maiandra GD;
+	font-size: 29px;
+	text-decoration: none;
+	display: block;
+	margin: 30px 0px 30px 0px;
+}
+
+p {
+	font-family: 'Lora', Times New Roman, serif;
+	font-size: 21px;
+	line-height: 1.8;
+	text-align: justify;
+	text-indent: 1em;
+}
+
+h1 {
+	font-family: Maiandra GD;
+	font-size: 29px;
+	color: white;
+	text-align: center;
+}
+
+#from {
+	float: right;
+}
+
+h2 {
+	font-family: Goudy Old Style;
+	font-size: 27px;
+	text-align: center;
+}
+
+#box {
+	margin: 0px auto;
+	width: 50%;
+	position: relative;
+	top: 100px;
+}
+
+.w_pic {
+	width: 80%;
+	margin: 0px auto;
+	display: block;
+}
+
+#box {
+	background-color: rgba(186, 235, 255, 0.5);
+	padding: 30px 30px 30px 30px;
+}
+
+h1,
+h2 {
+	margin-bottom: 15px;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+#left_pic_right_text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#box img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+#bottom_page {
+	background-color: #000000;
+	padding: 20px;
+	left: 0;
+	bottom: 0;
+	margin: 56px 0;
+}
+
+#bottom_page p {
+	color: #F8F3F3;
+	text-align: center;
+	font-size: 18px;
+}
+
+#texts {
+	position: absolute;
+	top: 200px;
+	padding: 10px 10px 10px 50px;
+}
+
+#second_sentence {
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 50px;
+	color: #285B8A;
+}
+
+#first_sentence {
+	font-family: "微软雅黑";
+	font-size: 50px;
+	color: #285B8A;
+}
+
+#content{
+	padding-top: 50px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+#search{
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 15%;
+	width: 100%;
+}
+#search table{
+margin: 0 auto;
+}
+#search input {
+	font-size: 1.2em;
+	height: 45px;
+}
+#search input[type=search]{
+	-webkit-appearance:searchfield;
+	appearance:searchfield;
+	width: 400px;
+	border: 1px solid #d3d7d4;
+	text-indent: 1em;
+	font-weight: normal;
+}
+#search input[type=button]{
+	width: 100px;
+	background-color: #d3d7d4;
+	border: 0;
+}
+#tuijian{
+	margin: 0 auto;
+	z-index: 1;
+	position: fixed;
+	top: 25%;
+	height: 60%;
+	overflow: auto;
+	left: 15%;
+	text-align: center;
+	width: 70%;
+}
+#tuijian .row{
+	margin: 0 auto;
+	border: 1px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.2);
+}
+#tuijian .thumbnail p{
+	text-align: center;
+	text-indent: inherit;
+}
+#tuijian .thumbnail{
+	background: rgba(255, 255, 255, 0.8);
+}
+#tuijian img{
+	height: 200px;
+}
+.carousel-indicators{
+	display: none;
+}
+footer{
+  padding-top: 40px;
+  text-align: center;
+	z-index: 1;
+	left: 0;
+	width: 100%;
+	overflow: auto;
+	font: 600 16px/18px 'Open Sans', sans-serif;
+}
+footer p{
+	font-size: 1em;
+  text-align: center;
+	color: #000000;
+}
